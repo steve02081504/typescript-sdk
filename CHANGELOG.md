@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.14.2](https://github.com/agentclientprotocol/typescript-sdk/compare/v0.14.1...v0.14.2) (2026-02-23)
+
+
+### Bug Fixes
+
+* use npx.cmd on Windows in client example ([#68](https://github.com/agentclientprotocol/typescript-sdk/issues/68)) ([fdc7815](https://github.com/agentclientprotocol/typescript-sdk/commit/fdc78155f8e917c6e3b854df26a69ec4e8024e74))
+
 ## [0.14.1](https://github.com/agentclientprotocol/typescript-sdk/compare/v0.14.0...v0.14.1) (2026-02-05)
 
 
