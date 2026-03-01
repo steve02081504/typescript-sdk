@@ -1580,6 +1580,9 @@ export const zSessionUpdate = z.union([
       sessionUpdate: z.literal("agent_message_chunk"),
     }),
   ),
+  z.object({
+    sessionUpdate: z.literal("agent_message_clear"),
+  }),
   zContentChunk.and(
     z.object({
       sessionUpdate: z.literal("agent_thought_chunk"),

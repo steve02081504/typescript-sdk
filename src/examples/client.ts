@@ -53,6 +53,10 @@ class ExampleClient implements acp.Client {
           console.log(`[${update.content.type}]`);
         }
         break;
+      case "agent_message_clear":
+        // Client should clear accumulated streamed content for current agent message.
+        console.log(`[${update.sessionUpdate}]`);
+        break;
       case "tool_call":
         console.log(`\n🔧 ${update.title} (${update.status})`);
         break;

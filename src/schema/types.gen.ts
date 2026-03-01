@@ -2434,6 +2434,9 @@ export type SessionUpdate =
   | (ContentChunk & {
       sessionUpdate: "agent_message_chunk";
     })
+  | {
+      sessionUpdate: "agent_message_clear";
+    }
   | (ContentChunk & {
       sessionUpdate: "agent_thought_chunk";
     })
